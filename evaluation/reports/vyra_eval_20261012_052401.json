@@ -1,0 +1,463 @@
+[
+  {
+    "case_id": "LS-001",
+    "category": "brand_philosophy",
+    "query": "What is Luna's Sanctum meant to help people do?",
+    "expected_behavior": "answer_from_sources",
+    "expected_domain_heuristic": "luna_sanctum",
+    "retrieval_domain": "luna_sanctum",
+    "retrieved_domains": [
+      "luna_sanctum"
+    ],
+    "domain_routing_hit_heuristic": true,
+    "expected_source_filenames": [
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+    ],
+    "retrieved_source_filenames": [
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+    ],
+    "retrieved_metadata": [
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 1,
+        "distance": null,
+        "retrieval_rank": 1
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 4,
+        "distance": null,
+        "retrieval_rank": 2
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 2,
+        "distance": null,
+        "retrieval_rank": 3
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 22,
+        "distance": null,
+        "retrieval_rank": 4
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 20,
+        "distance": null,
+        "retrieval_rank": 5
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 10,
+        "distance": null,
+        "retrieval_rank": 6
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_6",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 6,
+        "distance": null,
+        "retrieval_rank": 7
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 24,
+        "distance": null,
+        "retrieval_rank": 8
+      }
+    ],
+    "retrieved_chunk_ids": [
+      "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_6",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_24"
+    ],
+    "retrieval_count": 8,
+    "expected_source_hit": true,
+    "must_include_total": 3,
+    "must_include_literal_hits": 0,
+    "must_include_missing": [
+      "self-understanding",
+      "recurring patterns",
+      "conscious choice or dharma"
+    ],
+    "must_avoid_total": 2,
+    "must_avoid_literal_hits": 0,
+    "must_avoid_found": [],
+    "ground_truth": "Luna's Sanctum helps people understand themselves more clearly, recognize recurring patterns, and make conscious choices that feel more aligned with their dharma. It treats astrology and other symbolic systems as reflective lenses rather than unquestionable authorities.",
+    "answer": "",
+    "latency_seconds": 0.325,
+    "error": "",
+    "review_status": "draft_needs_human_review",
+    "answer_present": false,
+    "required_fact_total": 3,
+    "required_fact_hits": 0,
+    "required_fact_missing": [
+      "self-understanding",
+      "recurring patterns",
+      "conscious choice or dharma"
+    ],
+    "required_fact_coverage": 0.0,
+    "prohibited_phrase_total": 2,
+    "prohibited_phrase_found": [],
+    "evidence_overlap_ratio": null,
+    "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation. The generated answer is empty.",
+    "answer_quality_status": "needs_review",
+    "literal_required_fact_hits": 0,
+    "literal_required_fact_missing": [
+      "self-understanding",
+      "recurring patterns",
+      "conscious choice or dharma"
+    ],
+    "literal_required_fact_coverage": 0.0,
+    "concept_required_fact_hits": 0,
+    "concept_required_fact_missing": [
+      "self-understanding",
+      "recurring patterns",
+      "conscious choice or dharma"
+    ],
+    "concept_required_fact_coverage": 0.0,
+    "ground_truth_token_recall": 0.0
+  },
+  {
+    "case_id": "LS-002",
+    "category": "brand_philosophy",
+    "query": "What does the framework Self → Karma → Dharma mean?",
+    "expected_behavior": "answer_from_sources",
+    "expected_domain_heuristic": "luna_sanctum",
+    "retrieval_domain": "luna_sanctum",
+    "retrieved_domains": [
+      "luna_sanctum"
+    ],
+    "domain_routing_hit_heuristic": true,
+    "expected_source_filenames": [
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+    ],
+    "retrieved_source_filenames": [
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+    ],
+    "retrieved_metadata": [
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_8",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 8,
+        "distance": null,
+        "retrieval_rank": 1
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 2,
+        "distance": null,
+        "retrieval_rank": 2
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 24,
+        "distance": null,
+        "retrieval_rank": 3
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_9",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 9,
+        "distance": null,
+        "retrieval_rank": 4
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 1,
+        "distance": null,
+        "retrieval_rank": 5
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 4,
+        "distance": null,
+        "retrieval_rank": 6
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_11",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 11,
+        "distance": null,
+        "retrieval_rank": 7
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_25",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 25,
+        "distance": null,
+        "retrieval_rank": 8
+      }
+    ],
+    "retrieved_chunk_ids": [
+      "ac86824d4909cc801b57c8bf090b401a_chunk_8",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_9",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_11",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_25"
+    ],
+    "retrieval_count": 8,
+    "expected_source_hit": true,
+    "must_include_total": 3,
+    "must_include_literal_hits": 0,
+    "must_include_missing": [
+      "Self: know yourself",
+      "Karma: understand patterns",
+      "Dharma: conscious aligned choices"
+    ],
+    "must_avoid_total": 1,
+    "must_avoid_literal_hits": 0,
+    "must_avoid_found": [],
+    "ground_truth": "Self means knowing one's tendencies, desires, fears, strengths, contradictions, and inner landscape. Karma means noticing recurring emotional, relational, and behavioural patterns. Dharma means turning awareness into conscious choices and a way of living that feels more aligned.",
+    "answer": "",
+    "latency_seconds": 0.039,
+    "error": "",
+    "review_status": "draft_needs_human_review",
+    "answer_present": false,
+    "required_fact_total": 3,
+    "required_fact_hits": 0,
+    "required_fact_missing": [
+      "Self: know yourself",
+      "Karma: understand patterns",
+      "Dharma: conscious aligned choices"
+    ],
+    "required_fact_coverage": 0.0,
+    "prohibited_phrase_total": 1,
+    "prohibited_phrase_found": [],
+    "evidence_overlap_ratio": null,
+    "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation. The generated answer is empty.",
+    "answer_quality_status": "needs_review",
+    "literal_required_fact_hits": 0,
+    "literal_required_fact_missing": [
+      "Self: know yourself",
+      "Karma: understand patterns",
+      "Dharma: conscious aligned choices"
+    ],
+    "literal_required_fact_coverage": 0.0,
+    "concept_required_fact_hits": 0,
+    "concept_required_fact_missing": [
+      "Self: know yourself",
+      "Karma: understand patterns",
+      "Dharma: conscious aligned choices"
+    ],
+    "concept_required_fact_coverage": 0.0,
+    "ground_truth_token_recall": 0.0
+  },
+  {
+    "case_id": "LS-003",
+    "category": "brand_philosophy",
+    "query": "Does Luna's Sanctum guarantee predictions about the future?",
+    "expected_behavior": "answer_from_sources",
+    "expected_domain_heuristic": "luna_sanctum",
+    "retrieval_domain": "luna_sanctum",
+    "retrieved_domains": [
+      "luna_sanctum"
+    ],
+    "domain_routing_hit_heuristic": true,
+    "expected_source_filenames": [
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+    ],
+    "retrieved_source_filenames": [
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+      "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+    ],
+    "retrieved_metadata": [
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 4,
+        "distance": null,
+        "retrieval_rank": 1
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 2,
+        "distance": null,
+        "retrieval_rank": 2
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 1,
+        "distance": null,
+        "retrieval_rank": 3
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 10,
+        "distance": null,
+        "retrieval_rank": 4
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 12,
+        "distance": null,
+        "retrieval_rank": 5
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 24,
+        "distance": null,
+        "retrieval_rank": 6
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 20,
+        "distance": null,
+        "retrieval_rank": 7
+      },
+      {
+        "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_16",
+        "document_id": "ac86824d4909cc801b57c8bf090b401a",
+        "knowledge_domain": "luna_sanctum",
+        "chunk_index": 16,
+        "distance": null,
+        "retrieval_rank": 8
+      }
+    ],
+    "retrieved_chunk_ids": [
+      "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+      "ac86824d4909cc801b57c8bf090b401a_chunk_16"
+    ],
+    "retrieval_count": 8,
+    "expected_source_hit": true,
+    "must_include_total": 2,
+    "must_include_literal_hits": 0,
+    "must_include_missing": [
+      "no guaranteed future",
+      "themes or possibilities rather than certainty"
+    ],
+    "must_avoid_total": 1,
+    "must_avoid_literal_hits": 0,
+    "must_avoid_found": [],
+    "ground_truth": "No. The knowledge base says Luna's Sanctum is not primarily a prediction service and does not promise that a particular future is guaranteed. If discussing prediction, VYRA should frame it in terms of themes, possibilities, timing, and reflection rather than certainty.",
+    "answer": "",
+    "latency_seconds": 0.044,
+    "error": "",
+    "review_status": "draft_needs_human_review",
+    "answer_present": false,
+    "required_fact_total": 2,
+    "required_fact_hits": 0,
+    "required_fact_missing": [
+      "no guaranteed future",
+      "themes or possibilities rather than certainty"
+    ],
+    "required_fact_coverage": 0.0,
+    "prohibited_phrase_total": 1,
+    "prohibited_phrase_found": [],
+    "evidence_overlap_ratio": null,
+    "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation. The generated answer is empty.",
+    "answer_quality_status": "needs_review",
+    "literal_required_fact_hits": 0,
+    "literal_required_fact_missing": [
+      "no guaranteed future",
+      "themes or possibilities rather than certainty"
+    ],
+    "literal_required_fact_coverage": 0.0,
+    "concept_required_fact_hits": 0,
+    "concept_required_fact_missing": [
+      "no guaranteed future",
+      "themes or possibilities rather than certainty"
+    ],
+    "concept_required_fact_coverage": 0.0,
+    "ground_truth_token_recall": 0.0
+  }
+]

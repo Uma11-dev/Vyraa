@@ -1,0 +1,12 @@
+.git
+.deployment-backups/
+venv/
+.venv/
+.env
+.env.*
+*.sqlite3
+chroma_db/
+__pycache__/
+*.py[cod]
+staticfiles/
+.DS_Store

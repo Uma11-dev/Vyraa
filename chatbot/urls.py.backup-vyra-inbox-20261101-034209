@@ -1,0 +1,32 @@
+
+from django.urls import path
+
+from chatbot.views import ChatAPIView
+from chatbot.booking_views import (
+    BookingAvailabilityAPIView,
+    BookingCreateAPIView,
+    ClientProfileAPIView,
+)
+
+urlpatterns = [
+    path(
+        "chat/",
+        ChatAPIView.as_view(),
+        name="chat",
+    ),
+    path(
+        "clients/profile/",
+        ClientProfileAPIView.as_view(),
+        name="client-profile",
+    ),
+    path(
+        "bookings/availability/",
+        BookingAvailabilityAPIView.as_view(),
+        name="booking-availability",
+    ),
+    path(
+        "bookings/create/",
+        BookingCreateAPIView.as_view(),
+        name="booking-create",
+    ),
+]

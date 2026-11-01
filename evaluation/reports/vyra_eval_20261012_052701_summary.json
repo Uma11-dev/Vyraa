@@ -1,0 +1,3319 @@
+{
+  "run_id": "20261012_052701",
+  "created_at_utc": "2026-10-11T23:58:24.003769+00:00",
+  "run_configuration": {
+    "collection": "knowledge_chunks",
+    "collection_argument": "knowledge_chunks",
+    "top_k": 8,
+    "retrieval_only": false,
+    "dataset_path": "evaluation/datasets/vyra_rag_golden_v0.2.jsonl",
+    "case_limit": 0
+  },
+  "total_cases": 22,
+  "successful_cases": 22,
+  "error_cases": 0,
+  "expected_source_hits": 22,
+  "expected_source_hit_rate": 1.0,
+  "domain_routing_cases_scored": 22,
+  "domain_routing_heuristic_hits": 22,
+  "domain_routing_heuristic_hit_rate": 1.0,
+  "must_include_literal_hits": 21,
+  "must_include_literal_checks": 66,
+  "must_include_literal_hit_rate": 0.3181818181818182,
+  "must_avoid_literal_violations": 0,
+  "must_avoid_literal_checks": 25,
+  "must_avoid_literal_violation_rate": 0.0,
+  "answer_quality_cases_scored": 22,
+  "answer_quality_checks_passed": 6,
+  "answer_quality_needs_review": 16,
+  "average_evidence_overlap_ratio": 0.610532325325454,
+  "metric_warning": "Source matching uses exact filenames and configured aliases. Domain expectations are inferred heuristically. Phrase checks are literal. Evidence overlap is lexical, not proof of groundedness. Answer-quality checks are diagnostic and do not replace human review.",
+  "results": [
+    {
+      "case_id": "LS-001",
+      "category": "brand_philosophy",
+      "query": "What is Luna's Sanctum meant to help people do?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 4,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 20,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_6",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 6,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_6",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 1,
+      "must_include_missing": [
+        "self-understanding",
+        "conscious choice or dharma"
+      ],
+      "must_avoid_total": 2,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Luna's Sanctum helps people understand themselves more clearly, recognize recurring patterns, and make conscious choices that feel more aligned with their dharma. It treats astrology and other symbolic systems as reflective lenses rather than unquestionable authorities.",
+      "answer": "Luna's Sanctum is here to help you know yourself more deeply, understand the patterns shaping your life, and walk a path that feels genuinely aligned with who you are.\n\nIt's not primarily about predicting the future or getting external answers. Instead, it works as a mirror—using astrology, tarot, symbolism and reflection to bring hidden parts of yourself into clearer view. The idea is that you may already have the wisdom you need; sometimes you just need a different lens to see it.\n\nThe journey moves through three connected ideas:\n\n**Self** — understanding your tendencies, desires, fears, strengths and inner landscape.\n\n**Karma** — noticing the recurring patterns in your emotions, relationships and choices, rather than treating each moment as isolated.\n\n**Dharma** — turning that awareness into conscious decisions and a way of living that actually feels like *yours*.\n\nSo whether you're exploring a life transition, trying to understand why certain patterns keep repeating, or looking at a relationship dynamic more clearly, the goal is always the same: deeper self-knowledge that helps you move forward with more intention.\n\nIs there something specific you're curious about or exploring right now?",
+      "latency_seconds": 4.648,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 3,
+      "required_fact_missing": [],
+      "required_fact_coverage": 1.0,
+      "prohibited_phrase_total": 2,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6742424242424242,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "checks_passed",
+      "literal_required_fact_hits": 1,
+      "literal_required_fact_missing": [
+        "self-understanding",
+        "conscious choice or dharma"
+      ],
+      "literal_required_fact_coverage": 0.3333333333333333,
+      "concept_required_fact_hits": 3,
+      "concept_required_fact_missing": [],
+      "concept_required_fact_coverage": 1.0,
+      "ground_truth_token_recall": 0.5882352941176471
+    },
+    {
+      "case_id": "LS-002",
+      "category": "brand_philosophy",
+      "query": "What does the framework Self → Karma → Dharma mean?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_8",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 8,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_9",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 9,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 4,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_11",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 11,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_25",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 25,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_8",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_9",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_11",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_25"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "Self: know yourself",
+        "Karma: understand patterns",
+        "Dharma: conscious aligned choices"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Self means knowing one's tendencies, desires, fears, strengths, contradictions, and inner landscape. Karma means noticing recurring emotional, relational, and behavioural patterns. Dharma means turning awareness into conscious choices and a way of living that feels more aligned.",
+      "answer": "That's a great question—it's really the heart of what Luna's Sanctum is about.\n\nThe framework describes a journey of understanding:\n\n**Self** is about knowing yourself—your tendencies, desires, fears, strengths, and the inner landscape that makes you who you are. It's the foundation: getting clear on what's actually happening within you, not just what's happening around you.\n\n**Karma** is about understanding your patterns. Instead of treating each difficult moment as isolated, you start to notice the recurring emotional, relational, and behavioural patterns that show up again and again. Why do certain situations keep repeating? What attachments or beliefs keep pulling you back to the same place?\n\n**Dharma** is about walking your path—turning that awareness into conscious choices. Once you see the patterns, you can respond differently. It's about living in a way that feels aligned with who you actually are, rather than just reacting from habit.\n\nSo it's not linear in a rigid way. It's more like: the clearer you become about yourself, the more you can recognize what's repeating, and the more intentionally you can choose how to live.\n\nIs there a particular part of that journey you're curious about, or something specific you're trying to understand about yourself right now?",
+      "latency_seconds": 4.353,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 3,
+      "required_fact_missing": [],
+      "required_fact_coverage": 1.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.5887096774193549,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "checks_passed",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "Self: know yourself",
+        "Karma: understand patterns",
+        "Dharma: conscious aligned choices"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 3,
+      "concept_required_fact_missing": [],
+      "concept_required_fact_coverage": 1.0,
+      "ground_truth_token_recall": 0.8484848484848485
+    },
+    {
+      "case_id": "LS-003",
+      "category": "brand_philosophy",
+      "query": "Does Luna's Sanctum guarantee predictions about the future?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 4,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 12,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 20,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_16",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_16"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 2,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "no guaranteed future",
+        "themes or possibilities rather than certainty"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "No. The knowledge base says Luna's Sanctum is not primarily a prediction service and does not promise that a particular future is guaranteed. If discussing prediction, VYRA should frame it in terms of themes, possibilities, timing, and reflection rather than certainty.",
+      "answer": "No, it doesn't. That's actually an important distinction about how Luna's Sanctum works.\n\nThe practice uses astrology as a primary framework, but not to promise that specific things *will* happen. Instead, it explores the themes, cycles, and possibilities that may be unfolding in your current phase of life—and what those patterns might help you understand about yourself.\n\nThe real purpose is deeper than prediction. It's about seeing yourself more clearly, noticing the patterns that shape your choices and experiences, and then making more conscious decisions about how you want to move forward. That's what we mean by walking your path with greater alignment.\n\nSo if you're exploring a question about timing, relationship dynamics, or recurring patterns in your life, the sessions here are designed to give you insight and perspective—not to tell you \"this will definitely happen.\" The understanding itself is what shifts things.\n\nDoes that land with you? Is there something specific you're wondering about or exploring right now?",
+      "latency_seconds": 3.799,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 2,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "no guaranteed future",
+        "themes or possibilities rather than certainty"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6371681415929203,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "no guaranteed future",
+        "themes or possibilities rather than certainty"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "no guaranteed future",
+        "themes or possibilities rather than certainty"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.5555555555555556
+    },
+    {
+      "case_id": "LS-004",
+      "category": "brand_identity",
+      "query": "What does the Moon symbolize in the meaning of Luna's Sanctum?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 4,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_6",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 6,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 20,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_6",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 2,
+      "must_include_missing": [
+        "observation without immediate judgment"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The Moon symbolizes the subconscious: desires, fears, wishes, beliefs, emotional tides, and parts of ourselves that may not be visible directly. The Sanctum is described as a place to observe this inner landscape without immediately judging or suppressing it.",
+      "answer": "The Moon represents the subconscious—your deepest desires, fears, wishes, beliefs, and the emotional tides that move through you. It's the part of yourself that isn't always visible in direct light.\n\nLuna's Sanctum is imagined as a sanctuary where that inner landscape can be observed without judgment or suppression. It acts as a mirror, bringing hidden perspectives into awareness so you can choose how to respond to them.\n\nThe deeper purpose is dharmic alignment. Understanding what the Moon reveals isn't just about prediction—it's about asking: *What does this understanding help me see, and how might that change the way I live?*\n\nIs there something specific you're curious about exploring right now?",
+      "latency_seconds": 2.739,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 3,
+      "required_fact_missing": [],
+      "required_fact_coverage": 1.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.7906976744186046,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "checks_passed",
+      "literal_required_fact_hits": 2,
+      "literal_required_fact_missing": [
+        "observation without immediate judgment"
+      ],
+      "literal_required_fact_coverage": 0.6666666666666666,
+      "concept_required_fact_hits": 3,
+      "concept_required_fact_missing": [],
+      "concept_required_fact_coverage": 1.0,
+      "ground_truth_token_recall": 0.6486486486486487
+    },
+    {
+      "case_id": "LS-005",
+      "category": "practice_methods",
+      "query": "How does Luna's Sanctum use tarot?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 4,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 20,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_0",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_0"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 2,
+      "must_include_missing": [
+        "explore possibilities or perspectives"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Tarot is used as a reflective and symbolic tool to explore a question, current energy, possibilities, and perspectives that may not be obvious at first glance.",
+      "answer": "Tarot at Luna's Sanctum works as a reflective and symbolic tool—not as a fortune-telling device.\n\nWhen Uma brings tarot into a session, it's used to explore a question from angles that might not be immediately obvious. The cards act as mirrors, helping you see patterns, possibilities, and perspectives that are already present but perhaps not yet visible.\n\nFor example, if you're exploring a relationship dynamic or a recurring life pattern, tarot can surface symbolic meanings and themes that deepen the conversation. It's a way of asking: *What else might be true here? What am I not seeing?*\n\nTarot works alongside astrology and other reflective practices at Luna's Sanctum—all of them are tools for self-understanding rather than external authorities telling you what will happen.\n\nIs there a particular question or area of your life you're thinking about exploring?",
+      "latency_seconds": 3.4,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 2,
+      "required_fact_missing": [
+        "explore possibilities or perspectives"
+      ],
+      "required_fact_coverage": 0.6666666666666666,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6288659793814433,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 2,
+      "literal_required_fact_missing": [
+        "explore possibilities or perspectives"
+      ],
+      "literal_required_fact_coverage": 0.6666666666666666,
+      "concept_required_fact_hits": 2,
+      "concept_required_fact_missing": [
+        "explore possibilities or perspectives"
+      ],
+      "concept_required_fact_coverage": 0.6666666666666666,
+      "ground_truth_token_recall": 0.75
+    },
+    {
+      "case_id": "LS-006",
+      "category": "practice_methods",
+      "query": "What is shadow work for in Luna's Sanctum's approach?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 4,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 20,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_0",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_4",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_20",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_0"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "uncomfortable or unacknowledged parts of self",
+        "awareness and integration",
+        "not self-punishment"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Shadow work brings attention to parts of the self that are uncomfortable, denied, unconscious, or difficult to acknowledge. Its purpose is greater awareness and integration, not self-punishment.",
+      "answer": "Shadow work in Luna's Sanctum is about turning your attention inward—toward the parts of yourself that are uncomfortable, denied, or difficult to acknowledge. It's not about self-punishment or blame. It's about greater awareness.\n\nThe idea is that we all have aspects of ourselves we don't easily see or admit: fears we minimize, desires we suppress, patterns we repeat without noticing. Shadow work brings those into focus so you can actually *see* them clearly.\n\nOnce you see them, you have a choice. You can understand why they're there, how they shape your decisions and relationships, and whether you want to respond to them differently. That's where real change becomes possible.\n\nIn Uma's approach, shadow work is one of several lenses—alongside astrology, tarot, and symbolism—used to help you know yourself more deeply and understand the patterns shaping your life.\n\nIs there a particular pattern or question you're curious about exploring?",
+      "latency_seconds": 3.476,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 3,
+      "required_fact_missing": [],
+      "required_fact_coverage": 1.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.62,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "checks_passed",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "uncomfortable or unacknowledged parts of self",
+        "awareness and integration",
+        "not self-punishment"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 3,
+      "concept_required_fact_missing": [],
+      "concept_required_fact_coverage": 1.0,
+      "ground_truth_token_recall": 0.8076923076923077
+    },
+    {
+      "case_id": "LS-007",
+      "category": "service_selection",
+      "query": "I'm in a confusing transition and want to understand the themes and timing of this phase. Which service fits best?",
+      "expected_behavior": "recommend_service",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_13",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 12,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 18,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 5,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 14,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 19,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_13",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_19"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 4,
+      "must_include_literal_hits": 1,
+      "must_include_missing": [
+        "60 minutes",
+        "₹2,500",
+        "current phase or timing"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Future Fragments is the best fit. It is a 60-minute, ₹2,500 astrological consultation focused on the current phase, major themes, transition, and timing windows, without promising a fixed future.",
+      "answer": "That sounds like exactly what **Future Fragments** is designed for.\n\nYou're in the kind of moment where you need perspective on what's shifting, what might be asking for patience, and where your attention could be best placed—rather than a fixed prediction. The session explores the astrological themes of your current phase, timing windows that may matter, and what this transition might be inviting you to understand.\n\nIt's a 60-minute consultation, and you'll receive a personalized written document with reflection points to sit with afterward.\n\nDoes that feel like the right fit for what you're looking for? Or would you like to know more about how it works before deciding?",
+      "latency_seconds": 2.975,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 4,
+      "required_fact_hits": 2,
+      "required_fact_missing": [
+        "60 minutes",
+        "₹2,500"
+      ],
+      "required_fact_coverage": 0.5,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.7,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 1,
+      "literal_required_fact_missing": [
+        "60 minutes",
+        "₹2,500",
+        "current phase or timing"
+      ],
+      "literal_required_fact_coverage": 0.25,
+      "concept_required_fact_hits": 2,
+      "concept_required_fact_missing": [
+        "60 minutes",
+        "₹2,500"
+      ],
+      "concept_required_fact_coverage": 0.5,
+      "ground_truth_token_recall": 0.7692307692307693
+    },
+    {
+      "case_id": "LS-008",
+      "category": "service_selection",
+      "query": "I want to understand communication, attraction, and tension between me and my partner. Which service should I consider?",
+      "expected_behavior": "recommend_service",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 14,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 18,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 5,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 12,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_21",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 21,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 19,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_21",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 4,
+      "must_include_literal_hits": 1,
+      "must_include_missing": [
+        "75 minutes",
+        "₹3,500",
+        "two-chart synastry or relationship dynamics"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Unseen Alignment is the best fit. It is a 75-minute, ₹3,500 synastry consultation exploring the symbolic relationship between two birth charts, including emotional and communication dynamics, attraction, harmony, friction, triggers, strengths, and recurring relationship themes.",
+      "answer": "That's a clear fit—**Unseen Alignment** is designed exactly for this.\n\nIt's a 75-minute synastry consultation that explores the dynamic created between two people through your birth charts. Rather than labeling your relationship as compatible or incompatible, it helps you understand the emotional and communication patterns between you, what creates attraction and friction, and the recurring themes that show up.\n\nYou'd receive a personalized written document with reflection points afterward, so you can sit with what emerges.\n\nDoes this feel like what you're looking for, or would you like to know more about how it works?",
+      "latency_seconds": 2.66,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 4,
+      "required_fact_hits": 2,
+      "required_fact_missing": [
+        "75 minutes",
+        "₹3,500"
+      ],
+      "required_fact_coverage": 0.5,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6710526315789473,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 1,
+      "literal_required_fact_missing": [
+        "75 minutes",
+        "₹3,500",
+        "two-chart synastry or relationship dynamics"
+      ],
+      "literal_required_fact_coverage": 0.25,
+      "concept_required_fact_hits": 2,
+      "concept_required_fact_missing": [
+        "75 minutes",
+        "₹3,500"
+      ],
+      "concept_required_fact_coverage": 0.5,
+      "ground_truth_token_recall": 0.6875
+    },
+    {
+      "case_id": "LS-009",
+      "category": "service_selection",
+      "query": "I keep repeating the same emotional and relationship patterns. Which session is designed for that?",
+      "expected_behavior": "recommend_service",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 19,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_17",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 17,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_16",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_25",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 25,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 18,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 14,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_21",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 21,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_17",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_16",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_25",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_21"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 4,
+      "must_include_literal_hits": 1,
+      "must_include_missing": [
+        "90 minutes",
+        "₹4,000",
+        "recurring patterns"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Karmic Pattern Mapping is the best fit. It is a 90-minute, ₹4,000 natal-chart exploration focused on recurring patterns, tendencies, attachments, emotional loops, repeated choices, and ways awareness may interrupt an old pattern.",
+      "answer": "That's exactly what **Karmic Pattern Mapping** is designed for.\n\nThis session focuses on the patterns themselves—the recurring emotional loops, attachment styles, and relationship dynamics that keep showing up in different forms. Rather than looking at one isolated situation, it helps you see the deeper structure underneath, so you can understand *why* these patterns repeat and where you might interrupt them differently.\n\nIt's a 90-minute session, and you'll receive a personalized written document with reflection points to take away.\n\nDoes that feel like what you're looking for, or would you like to know more about how it works?",
+      "latency_seconds": 2.464,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 4,
+      "required_fact_hits": 2,
+      "required_fact_missing": [
+        "90 minutes",
+        "₹4,000"
+      ],
+      "required_fact_coverage": 0.5,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6049382716049383,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 1,
+      "literal_required_fact_missing": [
+        "90 minutes",
+        "₹4,000",
+        "recurring patterns"
+      ],
+      "literal_required_fact_coverage": 0.25,
+      "concept_required_fact_hits": 2,
+      "concept_required_fact_missing": [
+        "90 minutes",
+        "₹4,000"
+      ],
+      "concept_required_fact_coverage": 0.5,
+      "ground_truth_token_recall": 0.4838709677419355
+    },
+    {
+      "case_id": "LS-010",
+      "category": "service_details",
+      "query": "What is included in Future Fragments?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_13",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 19,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 12,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 18,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_9",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 9,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_17",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 17,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_13",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_19",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_18",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_9",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_24",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_17",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 4,
+      "must_include_literal_hits": 3,
+      "must_include_missing": [
+        "movement/stagnation/transition"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "Future Fragments includes the current astrological period and major themes; areas of movement, stagnation, and transition; important timing windows and upcoming periods; what the current phase may be asking the client to understand; and a personalized written session document with reflection points.",
+      "answer": "Future Fragments includes:\n\n**Current astrological period and major themes** — what's active in your chart right now and what it's illuminating.\n\n**Areas of movement, stagnation and transition** — where things are shifting, where patience may be needed, and where energy is building.\n\n**Important timing windows and upcoming periods** — key moments and phases to be aware of as you move forward.\n\n**What the current phase may be asking you to understand** — the deeper invitation or lesson in what you're moving through.\n\n**A personalized written session document and reflection points** — something you can return to and sit with after the session.\n\nIt's a 60-minute consultation designed for times when you're in transition, waiting, or uncertainty—when you want perspective on timing and themes rather than a fixed prediction. You leave with a clearer sense of what's unfolding and where to place your attention.\n\nIs there a particular transition or phase you're navigating right now?",
+      "latency_seconds": 3.686,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 4,
+      "required_fact_hits": 3,
+      "required_fact_missing": [
+        "movement/stagnation/transition"
+      ],
+      "required_fact_coverage": 0.75,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6288659793814433,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 3,
+      "literal_required_fact_missing": [
+        "movement/stagnation/transition"
+      ],
+      "literal_required_fact_coverage": 0.75,
+      "concept_required_fact_hits": 3,
+      "concept_required_fact_missing": [
+        "movement/stagnation/transition"
+      ],
+      "concept_required_fact_coverage": 0.75,
+      "ground_truth_token_recall": 0.9722222222222222
+    },
+    {
+      "case_id": "LS-011",
+      "category": "assistant_boundaries",
+      "query": "Can you perform my paid spiritual reading right now and tell me what my partner secretly thinks?",
+      "expected_behavior": "boundary_and_redirect",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 5,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 2,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_7",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 7,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 14,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 1,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 10,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_2",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_7",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_1",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_10",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "does not perform the paid reading",
+        "cannot know with certainty another person's thoughts",
+        "non-pressuring alternative"
+      ],
+      "must_avoid_total": 2,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "VYRA should explain that it can help clarify the service options and answer questions about Luna's Sanctum, but it does not perform the actual paid reading and cannot claim certainty about another person's private thoughts. It can suggest an appropriate consultation if the user wants to explore the relationship symbolically.",
+      "answer": "I appreciate you reaching out, but I should be clear about what I can do here.\n\nI'm VYRA—I'm a conversational guide who helps you explore your questions and find the right service. I'm not the one who conducts the actual spiritual readings. That's Uma's role.\n\nAnd I want to be honest about something else: even in a session with Uma, the work isn't about reading someone else's private thoughts. That's not how this practice works.\n\nWhat Luna's Sanctum *does* offer is a way to reflect on the dynamics between you and your partner—the patterns, the friction, the unspoken things that might be creating distance or confusion. Through a consultation called **Unseen Alignment**, you can explore what your charts reveal about how you two interact, what might be triggering misunderstandings, and what themes keep showing up between you.\n\nBut the real insight comes from *your* reflection on those dynamics, not from me or Uma telling you what someone else is thinking.\n\nIs there something specific happening in the relationship that's making you want to understand what your partner thinks? That might help me point you toward what could actually be useful for you right now.",
+      "latency_seconds": 4.244,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "does not perform the paid reading",
+        "cannot know with certainty another person's thoughts",
+        "non-pressuring alternative"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 2,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.5083333333333333,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "does not perform the paid reading",
+        "cannot know with certainty another person's thoughts",
+        "non-pressuring alternative"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "does not perform the paid reading",
+        "cannot know with certainty another person's thoughts",
+        "non-pressuring alternative"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.5238095238095238
+    },
+    {
+      "case_id": "LS-012",
+      "category": "unsupported_information",
+      "query": "What is the price of a custom consultation, and can I book it for tomorrow?",
+      "expected_behavior": "abstain_or_check_live_system",
+      "expected_domain_heuristic": "luna_sanctum",
+      "retrieval_domain": "luna_sanctum",
+      "retrieved_domains": [
+        "luna_sanctum"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+        "lunas_sanctum_vyra_knowledge_base_v1.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_3",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 3,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 5,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 14,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 12,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_13",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "lunas_sanctum_vyra_knowledge_base_v1.pdf",
+          "chunk_id": "ac86824d4909cc801b57c8bf090b401a_chunk_21",
+          "document_id": "ac86824d4909cc801b57c8bf090b401a",
+          "knowledge_domain": "luna_sanctum",
+          "chunk_index": 21,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "ac86824d4909cc801b57c8bf090b401a_chunk_15",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_3",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_5",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_14",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_12",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_13",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_22",
+        "ac86824d4909cc801b57c8bf090b401a_chunk_21"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "custom price not specified",
+        "do not invent availability",
+        "check with practitioner/booking system"
+      ],
+      "must_avoid_total": 2,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The provided knowledge base lists three services and their prices, but does not specify a custom consultation price or establish that a booking for tomorrow is available. VYRA should not invent either detail; it should explain that the custom price needs confirmation and check the actual booking system for availability and notice requirements.",
+      "answer": "I appreciate the question—and I want to be straightforward with you.\n\nCustom consultations aren't pre-priced or pre-scheduled the way our standard services are. If your question doesn't quite fit into **Future Fragments**, **Karmic Pattern Mapping**, or **Unseen Alignment**, Uma reviews the scope and timing with you first to work out the details—duration, price, and what's actually possible.\n\nSo I can't confirm a price or a tomorrow slot without knowing more about what you're looking to explore.\n\nWhat's on your mind? That'll help me either point you toward one of our existing services, or let you know what the next step would be for a custom session.",
+      "latency_seconds": 2.996,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "custom price not specified",
+        "do not invent availability",
+        "check with practitioner/booking system"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 2,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.45,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "custom price not specified",
+        "do not invent availability",
+        "check with practitioner/booking system"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "custom price not specified",
+        "do not invent availability",
+        "check with practitioner/booking system"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.24390243902439024
+    },
+    {
+      "case_id": "TAR-001",
+      "category": "tarot_history",
+      "query": "According to this document, where and when were tarot cards probably created?",
+      "expected_behavior": "answer_with_qualification",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 45,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_24",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 24,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_24"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 2,
+      "must_include_missing": [
+        "origin theories are not unanimous"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The document says tarot cards were probably created around 1440 somewhere in northern Italy, while acknowledging that some theorists suggest Spain or France as alternative origins.",
+      "answer": "Based on the knowledge I have, tarot cards were probably created around 1440 in northern Italy—most likely in one of the provinces like Piedmont, Venice, Bologna, or Florence. From there, they spread to Spain, France, and Germany.\n\nThe earliest surviving complete tarot deck we know of is the Visconti-Sforza deck, commissioned around 1415 by the Duke of Milan. It's a beautiful hand-painted pack with 22 major trumps and 56 other cards, making up the 78-card structure we still use today.\n\nInterestingly, the name \"tarot\" itself may come from the Taro river in northern Italy, though there are other theories about its origins.\n\nIs there something specific about tarot that brought you to Luna's Sanctum, or were you just curious about its history?",
+      "latency_seconds": 3.046,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 2,
+      "required_fact_missing": [
+        "origin theories are not unanimous"
+      ],
+      "required_fact_coverage": 0.6666666666666666,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.7111111111111111,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 2,
+      "literal_required_fact_missing": [
+        "origin theories are not unanimous"
+      ],
+      "literal_required_fact_coverage": 0.6666666666666666,
+      "concept_required_fact_hits": 2,
+      "concept_required_fact_missing": [
+        "origin theories are not unanimous"
+      ],
+      "concept_required_fact_coverage": 0.6666666666666666,
+      "ground_truth_token_recall": 0.6153846153846154
+    },
+    {
+      "case_id": "TAR-002",
+      "category": "tarot_history",
+      "query": "Does the document prove that tarot came directly from Chinese playing cards?",
+      "expected_behavior": "answer_with_qualification",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 49,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_23",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 23,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 45,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_23",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 2,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "possible influence only",
+        "document says evidence is lacking"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "No. It says early playing cards in China and Korea may have inspired European cards, but explicitly notes that there is no real evidence currently available to support that proposed link.",
+      "answer": "Based on the document, no—it doesn't prove that tarot came directly from Chinese playing cards.\n\nWhat the document *does* suggest is that tarot cards were created around 1440 in northern Italy, likely drawing on playing card traditions that already existed in Europe. It mentions that playing cards were favoured by European court ladies and commoners, and that tarot evolved from those card games.\n\nThe document doesn't establish a direct lineage from Chinese playing cards to European tarot. It's possible that playing cards themselves arrived in Europe from Asia at some point, but this particular text focuses on tarot's development within Italy and Europe, not its deeper origins in Asia.\n\nThe document does note that there have been many \"spurious conjectures\" about tarot's origins over the centuries—people have incorrectly attributed it to Egyptian, Hebrew, or other sources—so it's worth being cautious about origin claims in general.\n\nAre you exploring tarot's history out of curiosity, or is there something about tarot and spiritual practice at Luna's Sanctum you'd like to understand?",
+      "latency_seconds": 4.045,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 2,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "possible influence only",
+        "document says evidence is lacking"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.5185185185185185,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "possible influence only",
+        "document says evidence is lacking"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "possible influence only",
+        "document says evidence is lacking"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.42857142857142855
+    },
+    {
+      "case_id": "TAR-003",
+      "category": "tarot_history",
+      "query": "When does the document say tarot first became discussed as a magical divination system in European occult writing?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 45,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 49,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_144",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 144,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_25",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 25,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_144",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_25"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 1,
+      "must_include_missing": [
+        "Court de Gébelin",
+        "Comte de Mellet"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The document identifies Court de Gébelin and the Comte de Mellet in 1781 as the first European occult writers it discusses in connection with tarot as a magical divination system.",
+      "answer": "Based on the knowledge I have access to, the document indicates that occult interest in Tarot blossomed **following 1781**, and it was then that Tarot became an integral part of occult philosophy studies.\n\nHowever, the document also mentions earlier figures like Antoine Court de Gèbelin (1725-84), Eliphas Levi, and Crowley who made various claims about Tarot's origins and magical significance—though the text suggests some of their theories were speculative or inaccurate.\n\nSo while Tarot cards themselves existed much earlier (the earliest preserved deck dates to around 1415), the formal integration of Tarot into European occult writing and magical practice appears to have solidified in the late 18th century.\n\nThat said, I should be honest: I'm VYRA, a conversational guide for Luna's Sanctum, not a tarot historian. If you're exploring tarot's deeper history and symbolism as part of a spiritual inquiry, that might be something worth discussing with Uma directly—either through one of our standard sessions or a custom consultation. Is there something about tarot or spiritual exploration that brought you to Luna's Sanctum today?",
+      "latency_seconds": 4.231,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 1,
+      "required_fact_missing": [
+        "Court de Gébelin",
+        "Comte de Mellet"
+      ],
+      "required_fact_coverage": 0.3333333333333333,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.5354330708661418,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 1,
+      "literal_required_fact_missing": [
+        "Court de Gébelin",
+        "Comte de Mellet"
+      ],
+      "literal_required_fact_coverage": 0.3333333333333333,
+      "concept_required_fact_hits": 1,
+      "concept_required_fact_missing": [
+        "Court de Gébelin",
+        "Comte de Mellet"
+      ],
+      "concept_required_fact_coverage": 0.3333333333333333,
+      "ground_truth_token_recall": 0.6
+    },
+    {
+      "case_id": "TAR-004",
+      "category": "tarot_history",
+      "query": "How did the standard 78-card tarot deck develop, according to the document?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_82",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 82,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_139",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 139,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_82",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_139"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 2,
+      "must_include_missing": [
+        "22 trump cards"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The document describes a regular 56-card deck augmented by 22 allegorical trump cards, giving rise to the standard 78-card deck.",
+      "answer": "Based on the knowledge I have, the standard 78-card tarot deck developed in northern Italy during the early 15th century.\n\nHere's how it came together:\n\nThe earliest surviving decks from Milan and Ferrara consisted of a regular 56-card deck—the four suits with court and numbered cards that we'd recognize from playing cards. Separately, a hierarchy of 22 allegorical trump cards (called \"carte da trionfi,\" or cards with trumps) was created. These two components were then merged together to form the complete 78-card deck that's still used today.\n\nThe earliest preserved almost complete deck we know of is the Visconti-Sforza deck, commissioned around 1415 by the Duke of Milan—it's missing just four cards but shows us that the 22 major trumps were definitely in existence by that point.\n\nSo the structure that emerged was: 4 suits × 14 cards (court and numbered cards) + 22 major trumps = 78 cards total.\n\nIt's interesting that tarot wasn't originally connected to occult or magical practice—for the first 350 years of its history, it wasn't mentioned in any books on magic or occult philosophy. It started more as a game and a tool for courtly entertainment, particularly among the ladies of court.\n\nIs there something specific about tarot or how it's used in spiritual practice that you're curious about?",
+      "latency_seconds": 5.082,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 3,
+      "required_fact_missing": [],
+      "required_fact_coverage": 1.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6861313868613139,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "checks_passed",
+      "literal_required_fact_hits": 2,
+      "literal_required_fact_missing": [
+        "22 trump cards"
+      ],
+      "literal_required_fact_coverage": 0.6666666666666666,
+      "concept_required_fact_hits": 3,
+      "concept_required_fact_missing": [],
+      "concept_required_fact_coverage": 1.0,
+      "ground_truth_token_recall": 0.7222222222222222
+    },
+    {
+      "case_id": "TAR-005",
+      "category": "tarot_history",
+      "query": "What are the five categories of the Hermetic Tarot of Mantegna described in the document?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_26",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 26,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_44",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 44,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_27",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 27,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_28",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 28,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_144",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 144,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_71",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 71,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_26",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_44",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_27",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_28",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_144",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_71",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 5,
+      "must_include_literal_hits": 5,
+      "must_include_missing": [],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The document lists: archetypal social stations of humanity; the nine Muses and Apollo; the Liberal Arts; the Cardinal Virtues; and the Heavenly Spheres.",
+      "answer": "The Hermetic Tarot of Mantegna consists of 50 engravings organized into five categories:\n\n1. **The archetypal social stations of humanity** — representing different classes and roles in society\n2. **The 9 Muses and Apollo** — the Greek Sun God and the goddesses of the arts\n3. **The Liberal Arts** — disciplines of knowledge and learning\n4. **The Cardinal Virtues** — the foundational moral qualities\n5. **The Heavenly Spheres** — the celestial realms and cosmic order\n\nThese categories reflect a Hermetic and Neoplatonic framework of consciousness—essentially a map of different dimensions of human experience and the cosmos. The symbolism draws from esoteric traditions that were being revived during the Italian Renaissance, particularly through the work of scholars like Ficino who were translating texts such as the Corpus Hermeticum.\n\nIs there something specific about tarot symbolism or its history you're curious about, or are you exploring how these ideas might relate to your own spiritual inquiry?",
+      "latency_seconds": 3.689,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 5,
+      "required_fact_hits": 5,
+      "required_fact_missing": [],
+      "required_fact_coverage": 1.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6330275229357798,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "checks_passed",
+      "literal_required_fact_hits": 5,
+      "literal_required_fact_missing": [],
+      "literal_required_fact_coverage": 1.0,
+      "concept_required_fact_hits": 5,
+      "concept_required_fact_missing": [],
+      "concept_required_fact_coverage": 1.0,
+      "ground_truth_token_recall": 0.8333333333333334
+    },
+    {
+      "case_id": "TAR-006",
+      "category": "tarot_history",
+      "query": "What does the document say about the Visconti-Sforza deck?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_61",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 61,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_78",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 78,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_62",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 62,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_76",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 76,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_25",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 25,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_65",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 65,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_66",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 66,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_67",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 67,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_61",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_78",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_62",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_76",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_25",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_65",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_66",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_67"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "Italian Visconti-Sforza deck",
+        "almost complete",
+        "four cards missing"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "It describes the Italian Visconti-Sforza deck as the earliest preserved almost-complete tarot deck, commissioned by the young Duke of Milan Filippo Maria Visconti, with four cards missing.",
+      "answer": "Hello! I can see you're curious about tarot history—that's a great question.\n\nBased on the knowledge I have access to, the Visconti-Sforza decks date to around 1468, likely commissioned to commemorate the marriage of Duke Galeazzo Maria to Bona of Savoia. They're fascinating because they reveal how tarot evolved in 15th-century Italy.\n\nOne interesting detail: the surviving Visconti-Sforza decks are actually *missing* the Devil and the Tower cards. Historians think these were either considered distasteful or unlucky at the time and were removed—or simply lost over time. There's also evidence that six other cards (Strength, Temperance, The Star, The Moon, The Sun, and The World) may have been replaced or added later, possibly after damage.\n\nThere's also a theory that the Devil card position might have originally held the Visconti family's heraldic symbol—a snake—which represented wisdom in Gnostic and pagan traditions, rather than something \"devilish.\"\n\nAre you exploring tarot history out of general interest, or is there something specific about symbolism and spiritual meaning you're curious about? I'm happy to chat about it, or if you're interested in exploring tarot as a tool for reflection at Luna's Sanctum, I can tell you more about how Uma works with it.",
+      "latency_seconds": 4.822,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "Italian Visconti-Sforza deck",
+        "almost complete",
+        "four cards missing"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6115107913669064,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "Italian Visconti-Sforza deck",
+        "almost complete",
+        "four cards missing"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "Italian Visconti-Sforza deck",
+        "almost complete",
+        "four cards missing"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.5416666666666666
+    },
+    {
+      "case_id": "TAR-007",
+      "category": "tarot_history",
+      "query": "What are some proposed meanings or origins of the word 'Tarot' mentioned in the document?",
+      "expected_behavior": "answer_with_qualification",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_20",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 20,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_71",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 71,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 45,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_20",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_71",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 2,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "multiple proposals",
+        "not a settled etymology"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The document presents several proposals: an Egyptian term 'Ta-rosh' meaning the Royal Way, Latin 'rota' meaning a wheel, Hebrew 'Torah' meaning the Law, a connection to the Egyptian deity Thoth, and a possible name derived from the Taro river in northern Italy. It presents these as proposals rather than a settled answer.",
+      "answer": "Hello! I'm happy to share what the knowledge I have touches on.\n\nThe origins of the word \"Tarot\" are actually quite mysterious. A few proposals have been offered over time:\n\n- Some believe it comes from an Egyptian term, **\"Ta-rosh,\"** meaning \"the Royal Way\"\n- Others suggest it derives from the Latin **\"rota,\"** meaning \"wheel\"\n- There's also a simpler theory: since tarot cards were likely invented in different provinces of northern Italy—Piedmont, Venice, Bologna, and Florence—they may have been named after the **river Taro** in that region\n- A French occultist named Gébelin proposed it came from **Thoth**, an ancient Egyptian deity\n\nInterestingly, some have even connected it to the Hebrew **\"Torah,\"** meaning \"The Law.\"\n\nThe truth is, no one knows for certain—the word's true origin remains something of a mystery, and over the centuries various scholars and occultists have offered their own interpretations, sometimes more speculatively than others.\n\nIs there something specific about tarot or its history you're curious about, or are you exploring whether a tarot-based session might be helpful for you right now?",
+      "latency_seconds": 4.393,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 2,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "multiple proposals",
+        "not a settled etymology"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.6111111111111112,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "multiple proposals",
+        "not a settled etymology"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "multiple proposals",
+        "not a settled etymology"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.675
+    },
+    {
+      "case_id": "TAR-008",
+      "category": "tarot_history",
+      "query": "Does the document support the claim that Romany travelling groups invented tarot?",
+      "expected_behavior": "answer_with_source_attribution",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 49,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_52",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 52,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 45,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_28",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 28,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_52",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_28"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 2,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "the document rejects the claim",
+        "attribute claim to the document"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "No. The document argues that travelling Romany groups could not have been responsible for tarot's invention or original dissemination because it says Romany people did not appear in Europe until the middle of the 15th century. This should be reported as the document's claim, not as independently verified historical consensus.",
+      "answer": "No, the document doesn't support that claim. In fact, it suggests the opposite.\n\nThe retrieved text mentions Romany peoples alongside other groups—the Lombards, Huguenots, Lollards, and exiled Jews—as communities that shared contempt for Papal corruption and found common ground through the symbolism in tarot cards. But this describes them as *users* or *adherents* of tarot, not its inventors.\n\nThe document itself traces tarot's origins to northern Italy around 1440, with the earliest surviving deck being the Visconti-Sforza pack commissioned by the Duke of Milan in 1415. It suggests the cards arose from Neoplatonic and hermetic ideas of the Renaissance, not from Romany traditions.\n\nSo the Romany peoples appear in this history as one of several marginalized groups who found meaning and connection in tarot's symbolism—which is interesting in itself—but the document doesn't credit them with creating it.\n\nIs there something specific about tarot's history or origins you're curious about?",
+      "latency_seconds": 3.674,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 2,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "the document rejects the claim",
+        "attribute claim to the document"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.594059405940594,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "the document rejects the claim",
+        "attribute claim to the document"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "the document rejects the claim",
+        "attribute claim to the document"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.3953488372093023
+    },
+    {
+      "case_id": "TAR-009",
+      "category": "tarot_history",
+      "query": "Were tarot cards originally used only for occult divination?",
+      "expected_behavior": "answer_from_sources",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 49,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 45,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_28",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 28,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_49",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_45",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_28",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 3,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "not only occult divination",
+        "gaming/cultural uses",
+        "1781 occult-writing reference"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "No. The document says tarot was not mentioned in books on occult or magical philosophy for the first 350 years of its history and that cards were used for games and other cultural purposes before occult divination became prominent in European occult writing in 1781.",
+      "answer": "No, actually—that's a common misconception. Tarot cards were originally created around 1440 in northern Italy, and for their first few centuries, they weren't primarily used for divination or occult purposes at all.\n\nIn the beginning, they were used for gambling and as a form of entertainment, especially among wealthy merchants and court circles. They were also sometimes used socially to make decisions about romantic pursuits and personal matters—more like a parlor game than a spiritual tool.\n\nIt wasn't until much later, around the 17th and 18th centuries, that tarot became associated with occult philosophy and hermetic ideas. Even then, for the first 350 years of tarot's history, it wasn't mentioned in any books on occult or magical philosophy.\n\nSo the tarot we know today—as a tool for reflection and spiritual inquiry—is actually a later development. The cards themselves carry rich symbolism rooted in Renaissance hermetic thought, but that spiritual dimension came after their initial use as entertainment.\n\nAre you curious about tarot as a tool for reflection, or are you exploring something specific about how it's used at Luna's Sanctum?",
+      "latency_seconds": 4.111,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 3,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "not only occult divination",
+        "gaming/cultural uses",
+        "1781 occult-writing reference"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.5726495726495726,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "not only occult divination",
+        "gaming/cultural uses",
+        "1781 occult-writing reference"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "not only occult divination",
+        "gaming/cultural uses",
+        "1781 occult-writing reference"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.6578947368421053
+    },
+    {
+      "case_id": "TAR-010",
+      "category": "unsupported_information",
+      "query": "What exact meaning did every tarot card have in the original 1440 deck?",
+      "expected_behavior": "abstain_or_qualify",
+      "expected_domain_heuristic": "tarot_reference",
+      "retrieval_domain": "tarot_reference",
+      "retrieved_domains": [
+        "tarot_reference"
+      ],
+      "domain_routing_hit_heuristic": true,
+      "expected_source_filenames": [
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_source_filenames": [
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf",
+        "history_and_origins_of_tarot.pdf"
+      ],
+      "retrieved_metadata": [
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 22,
+          "distance": null,
+          "retrieval_rank": 1
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 15,
+          "distance": null,
+          "retrieval_rank": 2
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 16,
+          "distance": null,
+          "retrieval_rank": 3
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_82",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 82,
+          "distance": null,
+          "retrieval_rank": 4
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 13,
+          "distance": null,
+          "retrieval_rank": 5
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 43,
+          "distance": null,
+          "retrieval_rank": 6
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 0,
+          "distance": null,
+          "retrieval_rank": 7
+        },
+        {
+          "filename": "history_and_origins_of_tarot.pdf",
+          "chunk_id": "11a7421c6bf97d532d796c54c7aa2f5b_chunk_71",
+          "document_id": "11a7421c6bf97d532d796c54c7aa2f5b",
+          "knowledge_domain": "tarot_reference",
+          "chunk_index": 71,
+          "distance": null,
+          "retrieval_rank": 8
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_22",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_15",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_16",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_82",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_13",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_43",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_0",
+        "11a7421c6bf97d532d796c54c7aa2f5b_chunk_71"
+      ],
+      "retrieval_count": 8,
+      "expected_source_hit": true,
+      "must_include_total": 1,
+      "must_include_literal_hits": 0,
+      "must_include_missing": [
+        "source does not give exact meanings for every card in an original 1440 deck"
+      ],
+      "must_avoid_total": 1,
+      "must_avoid_literal_hits": 0,
+      "must_avoid_found": [],
+      "ground_truth": "The document does not provide an exhaustive original meaning for every card in a single 1440 deck, and it describes the history and origins as involving variants and theories. VYRA should say the source does not establish that information rather than invent a definitive card-by-card system.",
+      "answer": "I appreciate the question—tarot history is fascinating. But I should be honest: the knowledge I have access to covers the *structure* and *origins* of early tarot decks (like the Visconti-Sforza deck from around 1415), but it doesn't contain detailed interpretations of what each individual card meant in those original decks.\n\nWhat I can tell you is that the earliest tarot decks were created in northern Italy around 1440 and consisted of 78 cards—56 regular cards plus 22 allegorical trump cards. The symbolism appears to have drawn from Neoplatonic and hermetic traditions, but the specific meanings of individual cards evolved over time and varied between different regional decks.\n\nIf you're interested in exploring tarot's symbolic language as it relates to your own questions or patterns, that's something Uma works with during consultations—using tarot alongside astrology and reflection to help you understand what's emerging in your life. But for the historical and scholarly details about original card meanings, you'd likely need a specialized tarot history resource.\n\nIs there something about tarot symbolism or spiritual inquiry that brought you to Luna's Sanctum today?",
+      "latency_seconds": 4.199,
+      "error": "",
+      "review_status": "draft_needs_human_review",
+      "answer_present": true,
+      "required_fact_total": 1,
+      "required_fact_hits": 0,
+      "required_fact_missing": [
+        "source does not give exact meanings for every card in an original 1440 deck"
+      ],
+      "required_fact_coverage": 0.0,
+      "prohibited_phrase_total": 1,
+      "prohibited_phrase_found": [],
+      "evidence_overlap_ratio": 0.45528455284552843,
+      "evidence_overlap_warning": "Concept matching uses curated phrase variants, not a full semantic model. Lexical overlap and ground-truth token recall do not prove factual groundedness. Prohibited phrase checks are literal and may require contextual review. A passed heuristic check does not replace human evaluation.",
+      "answer_quality_status": "needs_review",
+      "literal_required_fact_hits": 0,
+      "literal_required_fact_missing": [
+        "source does not give exact meanings for every card in an original 1440 deck"
+      ],
+      "literal_required_fact_coverage": 0.0,
+      "concept_required_fact_hits": 0,
+      "concept_required_fact_missing": [
+        "source does not give exact meanings for every card in an original 1440 deck"
+      ],
+      "concept_required_fact_coverage": 0.0,
+      "ground_truth_token_recall": 0.38461538461538464
+    }
+  ]
+}
